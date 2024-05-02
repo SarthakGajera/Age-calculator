@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #CEEAF7;
+}
+h1{
+    margin-top:5%;
+    text-align: center;
+    color:#828A95;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+    margin: auto;
+    flex-direction:column;
+    margin-top:10%;
+    margin-bottom: 5%;
+   
+
+}
+
+.container p{
+    font-size:20px;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    background-color:#D5C9DF;
+}
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top:15px;
+    text-align: center;
+    background-color: #D5C9DF;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #CCD7E4;
+    
+}
+
+#currDate{
+    font-size:40px;
+    margin: 20px;
+    font-weight:bold;
+    text-align:center;
+    color: #DCB8CB;
+}
+#displayAge {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    /* Initially hide the age display */
+}
+#age {
+    font-size: 24px;
+    color:#828A95;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
